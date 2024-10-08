@@ -1,0 +1,65 @@
+body {
+    background: #1B2021;
+    color: #E3DCC2;
+}
+
+div {
+    font-family: Cambria, Arial;
+    text-align: center;
+    font-size: larger;
+}
+
+div img {
+    opacity: 0.3;
+    width: 50%;
+    border: 5px solid #797D81;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15%;
+}
+
+div img:hover {
+    opacity: 1;
+    transition: 0.3s ease-in-out 0s;
+    border-color: #E3DCC2;
+}
+
+nav {
+    background: #797D81;
+    font-size: large;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav a {
+    color: #1B2021;
+    background: #E3DCC2;
+    border: 3px solid #1B2021;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+#skip_main {
+    position: relative;
+    left: 15px;
+}
+
+nav a:hover {
+    background: #F25757;
+}
+
+#gallery {
+    columns: 230pt;
+
+}
+
+#gallery img {
+    width: 95%;
+}
+
